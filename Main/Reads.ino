@@ -1,17 +1,4 @@
 
-
-
-void encoders_init() {
-  
-  magAlpha.begin(1000000, MA_SPI_MODE_3, 2);
-
-}
-
-
-
-
-
-
 void calibration () {
   qtr.setTypeAnalog();
   qtr.setSensorPins((const uint8_t[]) {
